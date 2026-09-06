@@ -47,7 +47,7 @@ Because this transport layer lacks encryption, transmissions can be intercepted.
 
 <img width="863" height="368" alt="image" src="https://github.com/user-attachments/assets/59ce6ecc-66c9-4a74-be3a-b7411a5adf11" />
 
-
+<img width="1331" height="142" alt="image" src="https://github.com/user-attachments/assets/2dcb9f51-7ff1-4ec9-baf6-bff6eed6b641" />
 
 
 ## Recommended Mitigation
