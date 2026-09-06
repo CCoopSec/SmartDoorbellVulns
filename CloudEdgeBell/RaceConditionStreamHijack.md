@@ -40,9 +40,9 @@ Because this Interactive Connectivity Establishment (ICE) signaling occurs entir
 5. **Exploit Race Condition:** Substitute the legitimate client's destination IP address with an attacker-controlled IP address within the JSON payload, and transmit it to the doorbell.
 6. **Stream Hijacking:** Bind a local listener to port `16685` and pipe the incoming stream into a media player to view the unauthorized surveillance feed (e.g., `nc -u -l 16685 | ffplay -f h264 -`).
 
-<img width="982" height="58" alt="image" src="https://github.com/user-attachments/assets/2360fb8d-132b-4c04-a6e6-9c52faf826a1" />
+<img width="982" height="57" alt="image" src="https://github.com/user-attachments/assets/59ce20a4-0be2-4aa5-b75d-ba487fe87aea" />
 
-<img width="882" height="77" alt="image" src="https://github.com/user-attachments/assets/c274e5df-55ae-4940-a81e-6682ba7ada2e" />
+<img width="888" height="85" alt="image" src="https://github.com/user-attachments/assets/dea8709a-b5cd-4818-aefa-fe9269651ee1" />
 
 ## Recommended Mitigation
 
