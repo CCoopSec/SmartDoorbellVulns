@@ -42,10 +42,8 @@ The failure to validate HMAC freshness/uniqueness allows an attacker to capture 
 5. **Observation:** The backend server will accept the replayed request and execute the action, confirming the failure to validate the timestamp or nonce uniqueness.
 6. **Execute IDOR:** Modify the `deviceID` parameter within the URL query string (and the X-Ca-Key header) to reflect the UUID of a separate, targeted device, and replay the request. The command will successfully execute on the targeted hardware. 
 
-<img width="982" height="317" alt="image" src="https://github.com/user-attachments/assets/e8d52ac4-c186-4de2-9133-b519c756beb5" />
-
-<img width="1336" height="141" alt="image" src="https://github.com/user-attachments/assets/40e74419-23ac-46f3-8e78-5444be21df8f" />
-
+<img width="981" height="103" alt="image" src="https://github.com/user-attachments/assets/445f9964-c42e-4057-88d8-f589d43622e6" />
+<img width="851" height="361" alt="image" src="https://github.com/user-attachments/assets/5217cbe6-550d-4469-b10b-5688d42e6b62" />
 
 ## Recommended Mitigation
 
