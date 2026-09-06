@@ -43,11 +43,11 @@ Because this transport layer lacks encryption, transmissions can be intercepted.
 7. **Execute Payload Tampering:** Before forwarding the captured PUT request that uploads the file, utilize the proxy to swap the raw image bytes with a falsified image or an alternative file type (such as an executable script). The server will accept the modified payload due to the lack of transport integrity. 
 8. **Note:** The firmware incorrectly *tags* the image payload with a `Content-Type: application/json` header, which the backend currently accepts without proper MIME-type enforcement.
 
-<img width="982" height="693" alt="image" src="https://github.com/user-attachments/assets/a3546bb7-dbcd-4570-aecb-d304ef1bf3fb" />
+<img width="891" height="801" alt="image" src="https://github.com/user-attachments/assets/84eb5840-98bf-4768-80d5-1d28ca50f297" />
 
-<img width="982" height="317" alt="image" src="https://github.com/user-attachments/assets/2ee11cb3-4321-4fd3-b476-458baaa07060" />
+<img width="863" height="368" alt="image" src="https://github.com/user-attachments/assets/59ce6ecc-66c9-4a74-be3a-b7411a5adf11" />
 
-<img width="1336" height="141" alt="image" src="https://github.com/user-attachments/assets/618bddd4-2e93-4ee6-bcc3-4e6c8ffdb130" />
+
 
 
 ## Recommended Mitigation
